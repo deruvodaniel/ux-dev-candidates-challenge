@@ -1,0 +1,15 @@
+.emptyState {
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--text);
+}
+
+.icon {
+  margin-bottom: 1.25rem;
+}
+
+.icon img {
+  margin: 0 auto;
+  width: 15.625rem;
+  height: 12.5rem;
+}

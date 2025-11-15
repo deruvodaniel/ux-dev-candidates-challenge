@@ -1,0 +1,164 @@
+:root {
+    --font-base-size: 16px;
+  
+    /* Desktop */
+    --web-desktop-heading-1-bold: 4.5rem;
+    --web-desktop-heading-2-bold: 3.75rem;
+    --web-desktop-heading-3-bold: 3rem;
+    --web-desktop-heading-4-bold: 2.25rem;
+    --web-desktop-heading-5-bold: 1.5rem;
+    --web-desktop-heading-6-bold: 1.25rem;
+    --web-desktop-subtitle-bold: 1.12rem;
+    --web-desktop-subtitle-regular: 1.12rem;
+    --web-desktop-body-1-bold: 1rem;
+    --web-desktop-body-1-regular: 1rem;
+    --web-desktop-body-2-bold: 0.88rem;
+    --web-desktop-body-2-regular: 0.88rem;
+    --web-desktop-caption-bold: 0.75rem;
+    --web-desktop-caption-medium: 0.75rem;
+    --web-desktop-caption-regular: 0.75rem;
+  
+    /* Mobile */
+    --web-mobile-heading-1-bold: 2.5rem;
+    --web-mobile-heading-2-bold: 2rem;
+    --web-mobile-heading-3-bold: 1.88rem;
+    --web-mobile-heading-4-bold: 1.5rem;
+    --web-mobile-heading-5-bold: 1.25rem;
+    --web-mobile-heading-6-bold: 1.12rem;
+    --web-mobile-subtitle-bold: 1rem;
+    --web-mobile-subtitle-regular: 1rem;
+    --web-mobile-body-1-bold: 1rem;
+    --web-mobile-body-1-regular: 1rem;
+    --web-mobile-body-2-bold: 0.88rem;
+    --web-mobile-body-2-regular: 0.88rem;
+    --web-mobile-caption-bold: 0.75rem;
+    --web-mobile-caption-medium: 0.75rem;
+    --web-mobile-caption-regular: 0.75rem;
+  }
+  
+  h1 {
+    font-size: var(--web-desktop-heading-1-bold);
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: var(--web-desktop-heading-2-bold);
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: var(--web-desktop-heading-3-bold);
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: var(--web-desktop-heading-4-bold);
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-size: var(--web-desktop-heading-5-bold);
+    font-weight: bold;
+  }
+  
+  h6 {
+    font-size: var(--web-desktop-heading-6-bold);
+    font-weight: bold;
+  }
+  
+  .subtitle-bold {
+    font-size: var(--web-desktop-subtitle-bold);
+    font-weight: bold;
+  }
+  
+  .subtitle-regular {
+    font-size: var(--web-desktop-subtitle-regular);
+    font-weight: normal;
+  }
+  
+  .body-1-bold {
+    font-size: var(--web-desktop-body-1-bold);
+    font-weight: bold;
+  }
+  
+  .body-1-regular {
+    font-size: var(--web-desktop-body-1-regular);
+    font-weight: normal;
+  }
+  
+  .body-2-bold {
+    font-size: var(--web-desktop-body-2-bold);
+    font-weight: bold;
+  }
+  
+  .body-2-regular {
+    font-size: var(--web-desktop-body-2-regular);
+    font-weight: normal;
+  }
+  
+  .caption-bold {
+    font-size: var(--web-desktop-caption-bold);
+    font-weight: bold;
+  }
+  
+  .caption-medium {
+    font-size: var(--web-desktop-caption-medium);
+    font-weight: 500;
+  }
+  
+  .caption-regular {
+    font-size: var(--web-desktop-caption-regular);
+    font-weight: normal;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: var(--web-mobile-heading-1-bold);
+    }
+    h2 {
+      font-size: var(--web-mobile-heading-2-bold);
+    }
+    h3 {
+      font-size: var(--web-mobile-heading-3-bold);
+    }
+    h4 {
+      font-size: var(--web-mobile-heading-4-bold);
+    }
+    h5 {
+      font-size: var(--web-mobile-heading-5-bold);
+    }
+    h6 {
+      font-size: var(--web-mobile-heading-6-bold);
+    }
+  
+    .subtitle-bold {
+      font-size: var(--web-mobile-subtitle-bold);
+    }
+    .subtitle-regular {
+      font-size: var(--web-mobile-subtitle-regular);
+    }
+  
+    .body-1-bold {
+      font-size: var(--web-mobile-body-1-bold);
+    }
+    .body-1-regular {
+      font-size: var(--web-mobile-body-1-regular);
+    }
+    .body-2-bold {
+      font-size: var(--web-mobile-body-2-bold);
+    }
+    .body-2-regular {
+      font-size: var(--web-mobile-body-2-regular);
+    }
+  
+    .caption-bold {
+      font-size: var(--web-mobile-caption-bold);
+    }
+    .caption-medium {
+      font-size: var(--web-mobile-caption-medium);
+    }
+    .caption-regular {
+      font-size: var(--web-mobile-caption-regular);
+    }
+  }
+  

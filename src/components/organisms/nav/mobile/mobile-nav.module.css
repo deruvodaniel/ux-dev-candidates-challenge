@@ -1,0 +1,78 @@
+.mobileHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 16px 0;
+}
+
+.hamburgerMenu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--text);
+  width: 50px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+}
+
+.navContent {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: var(--background);
+  padding: 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+
+  h4 {
+    margin-bottom: 2rem;
+  }
+}
+
+.navWrapper h2 {
+  margin: 24px 0;
+}
+.closeButton {
+  border: 0 !important;
+  cursor: pointer;
+  color: var(--contrast-text);
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  padding-top: .5rem !important;
+  background-color: transparent;
+  svg {
+    height: 1.5rem !important;
+  }
+}
+
+
+.navFooter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--neutral-gray-50);
+  padding: 1rem;
+}

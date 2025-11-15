@@ -1,0 +1,16 @@
+.cardIcon {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 24px;
+    aspect-ratio: 1;
+  }
+  
+  .cardIcon.positive {
+    color: var(--success);
+  }
+  
+  .cardIcon.negative {
+    color: var(--error);
+  }
+  

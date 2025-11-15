@@ -1,0 +1,37 @@
+html,
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--main);
+  height: 100vh;
+}
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: var(--neutral-gray-100);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-base-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+button, .button {
+  cursor: pointer;
+}
+
+button:hover, .button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #root {
+    height: fit-content;
+  }
+}
+
